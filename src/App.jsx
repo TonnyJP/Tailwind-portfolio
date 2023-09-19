@@ -1,9 +1,16 @@
+import {About, Hero, Navbar, Projects, Skills} from "./components/index"
 
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">Tailwind-portfolio</h1>
+    <>
+    <Navbar />
+    <Hero />
+    <Skills />
+    <About />
+    <Projects />
+    </>
   )
 }
 
